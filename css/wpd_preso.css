@@ -1,0 +1,28 @@
+section {
+    
+    min-height: 90%;
+
+}
+
+.accordionItem h3 { background-color: #c5beab; padding:2%;}
+.accordionItem h3:hover { cursor: pointer; }
+.accordionItem div { margin: 0; padding: 1em 0.4em; background-color: #faf8f5; border-bottom: 1px solid #faf8f5; }
+.accordionItem.hide h3 { color: #000; background-color: #c5beab; opacity:0.75; }
+.accordionItem.hide div { display: none; }
+.accordionItem h3 a { padding: 2%; font-size: 60%; vertical-align:top; }
+
+
+.under_position {
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.under_position p {
+    font-size: 0.4em;
+    opacity: .40;
+
+}
